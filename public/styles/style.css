@@ -1,0 +1,31 @@
+/* Globales */
+
+html {
+    font-size: 16px;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+#nav-layout {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+}
