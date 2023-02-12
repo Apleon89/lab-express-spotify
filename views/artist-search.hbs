@@ -1,0 +1,20 @@
+<div>
+
+    <h3>Results</h3>
+
+    <div>
+
+        {{#each allArtists}}
+
+        <div>
+
+            <img src="{{this.images.0.url}}" alt="{{this.name}}" width="300px">
+            <h5>{{this.name}}</h5>
+            <button><a href="">View Albums</a></button>
+        </div>
+
+        {{/each}}
+
+    </div>
+
+</div>
